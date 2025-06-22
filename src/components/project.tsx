@@ -11,14 +11,14 @@ const item1 = [
     name: "Typescript",
     designation: "Programming Language",
     image:
-      "https://skillicons.dev/icons?i=typescript",  
+      "/icons/typescript.svg",  
   },  
   {
     id: 2,
     name: "Tailwind CSS",
     designation: "CSS Framework",
     image:
-      "https://skillicons.dev/icons?i=tailwindcss",
+      "/icons/tailwind.svg",
 
   },
   {
@@ -26,14 +26,14 @@ const item1 = [
     name: "React",
     designation: "Javascript Library",
     image:
-      "https://skillicons.dev/icons?i=react",
+      "/icons/react.svg",
   },
   {
     id: 4,
     name: "Next.js",
     designation: "React Framework",
     image:
-      "https://skillicons.dev/icons?i=nextjs",
+      "/icons/next.svg",
   },
   // {
   //   id: 5,
