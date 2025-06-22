@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  images: {
+    domains: ["skillicons.dev"], // ✅ Tambahkan ini
+  },
 }
 
 export default nextConfig;
