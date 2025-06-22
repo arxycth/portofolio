@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Arxycth",
     images: [
       {
-        url: "https://www.arxy.my.id/og-image.jpg", // Pastikan file ini ada di folder /public
+        url: "https://www.arxy.my.id/og-image.jpg?v=2", // Pastikan file ini ada di folder /public
         width: 1200,
         height: 630,
         alt: "Preview Arxycth Portfolio",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Arxycth Portofolio",
     description: "Portofolio pribadi Arxycth.",
-    images: ["https://www.arxy.my.id/og-image.jpg"],
+    images: ["https://www.arxy.my.id/og-image.jpg?v=2"],
   },
 };
 
