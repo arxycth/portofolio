@@ -15,12 +15,42 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// export const metadata: Metadata = {
+//   title: "Arxycth Portofolio",
+//   description: "My personal portofolio",
+//   icons: {
+//     icon: "/favicon.ico"
+//   }
+// };
+
 export const metadata: Metadata = {
   title: "Arxycth Portofolio",
   description: "My personal portofolio",
   icons: {
     icon: "/favicon.ico"
-  }
+  },
+  openGraph: {
+    title: "Arxycth Portofolio",
+    description: "My personal portofolio",
+    url: "https://www.arxy.my.id",
+    siteName: "Arxycth",
+    images: [
+      {
+        url: "https://www.arxy.my.id/og-image.jpg", // Pastikan file ini ada di folder /public
+        width: 1200,
+        height: 630,
+        alt: "Preview Arxycth Portfolio",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arxycth Portofolio",
+    description: "Portofolio pribadi Arxycth.",
+    images: ["https://www.arxy.my.id/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
