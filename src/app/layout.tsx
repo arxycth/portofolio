@@ -25,13 +25,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Arxycth Portofolio",
-  description: "My personal portofolio",
+  description: "My personal portofolio, thx for visit",
   icons: {
     icon: "/favicon.ico"
   },
   openGraph: {
     title: "Arxycth Portofolio",
-    description: "My personal portofolio",
+    description: "My personal portofolio, thx for visit",
     url: "https://www.arxy.my.id",
     siteName: "Arxycth",
     images: [
