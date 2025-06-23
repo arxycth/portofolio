@@ -1,15 +1,16 @@
 import React from "react";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 
-import { IconBrandLinkedin, IconBrandInstagram, IconBrandGithub } from "@tabler/icons-react";
+import { IconBrandLinkedin, IconBrandInstagram, IconBrandGithub, IconBrandLinkedinFilled, IconBrandInstagramFilled, IconBrandGithubFilled } from "@tabler/icons-react";
 
 export function BackgroundBeamsWithCollisionDemo() {
   return (
-    <div id="contact"className="sticky top-0 z-50">
-        <BackgroundBeamsWithCollision className="md:h-190">
-                <div className="flex-col flex justify-center items-center">
-                <h2 className="text-3xl relative z-20 md:text-5xl lg:text-8xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
+    <div id="contact"className="w-full h-screen z-50">
+        <BackgroundBeamsWithCollision>
+                <div className="flex-col flex justify-center items-center w-full h-screen">
+                <h2 className="text-2xl relative z-20 md:text-4xl lg:text-[5rem] font-bold text-center text-black dark:text-white font-sans tracking-tight">
                     Up for something cool? {" "}
+                    <br />
                     <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
                     <div className="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
                         <span className="">Let&apos;s connect!</span>
@@ -19,6 +20,9 @@ export function BackgroundBeamsWithCollisionDemo() {
                     </div>
                     </div>
                 </h2>
+                <p className="mt-2 mb-6 mx-2 md:mt-4 md:mb-8 text-lg text-gray-200 text-center max-w-xl leading-relaxed">
+                Feel free to reach out — open to freelance work, collaborations, or just a friendly chat! Don&apos;t be shy — let&apos;s talk! 😊
+                </p>
                 <div className="flex flex-col md:flex-row">                    
                     <a
                     href="https://www.linkedin.com/in/dimas-adiluhur/"
@@ -26,7 +30,14 @@ export function BackgroundBeamsWithCollisionDemo() {
                     rel="noopener noreferrer"
                     className="relative overflow-hidden my-2 md:mx-4 pl-3 pr-2 py-2 rounded-full border-2 border-white bg-[#0A0D2D] text-gray-50 text-lg font-sans font-semibold flex items-center justify-between gap-2 shadow-xl group hover:text-black"
                     >
-                    <IconBrandLinkedin />
+                    <span className="group-hover:hidden">
+                        <IconBrandLinkedin/>
+                    </span>
+
+                    {/* Icon Filled (on hover) */}
+                    <span className="hidden group-hover:inline-block z-10">
+                        <IconBrandLinkedinFilled/>
+                    </span>
                     <span className="relative z-10">LinkedIn</span>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +58,14 @@ export function BackgroundBeamsWithCollisionDemo() {
                     rel="noopener noreferrer"
                     className="relative overflow-hidden my-2 md:mx-4 pl-3 pr-2 py-2 rounded-full border-2 border-white bg-[#0A0D2D] text-gray-50 text-lg font-sans font-semibold flex items-center justify-between gap-2 shadow-xl group hover:text-black"
                     >
-                    <IconBrandInstagram />
+                    <span className="group-hover:hidden">
+                        <IconBrandInstagram/>
+                    </span>
+
+                        {/* Icon Filled (on hover) */}
+                    <span className="hidden group-hover:inline-block z-10">
+                        <IconBrandInstagramFilled/>
+                    </span>
                     <span className="relative z-10">Instagram</span>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +86,14 @@ export function BackgroundBeamsWithCollisionDemo() {
                     rel="noopener noreferrer"
                     className="relative overflow-hidden my-2 md:mx-4 pl-3 pr-2 py-2 rounded-full border-2 border-white bg-[#0A0D2D] text-gray-50 text-lg font-sans font-semibold flex items-center justify-between gap-2 shadow-xl group hover:text-black"
                     >
-                    <IconBrandGithub />
+                    <span className="group-hover:hidden">
+                        <IconBrandGithub/>
+                    </span>
+
+                    {/* Icon Filled (on hover) */}
+                    <span className="hidden group-hover:inline-block z-10">
+                        <IconBrandGithubFilled/>
+                    </span>
                     <span className="relative z-10">GitHub</span>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -82,8 +107,15 @@ export function BackgroundBeamsWithCollisionDemo() {
                     </svg>
                     <div className="absolute top-0 left-0 h-full w-0 bg-white transition-all duration-500 group-hover:w-full z-0" />
                     </a>
-                </div>              
+                </div>
+                <div className="mt-4 text-sm text-gray-300">
+                Or email me at{" "}
+                <a href="mailto:dimasadiluhur@gmail.com" className="text-purple-300 hover:text-purple-400 hover:underline">dimasadiluhur@gmail.com</a>
+                </div>            
             </div>
+            {/* <p className="absolute bottom-0 text-gray-400 text-sm mb-4">
+                    © {new Date().getFullYear()} Dimas Adiluhur. All rights reserved.
+            </p>   */}
         </BackgroundBeamsWithCollision>    
     </div>
 
