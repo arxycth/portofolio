@@ -223,7 +223,7 @@ export function Project() {
                   Pelatihan Olimpiade
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-100">
-                  www.pelatihanolimpiade.com is an online platform that provides structured learning resources, practice materials, and guided mentoring to help students prepare for academic competitions. It typically offers subject-specific modules, problem-solving exercises, interactive classes, and mock tests designed to build strong conceptual understanding and competitive skills. Through accessible and flexible online features, such a website enables learners to train effectively anytime and anywhere.
+                  www.pelatihanolimpiade.com is an online platform that provides structured learning resources, practice materials, and guided mentoring to help students prepare for academic competitions. It typically offers subject-specific modules, problem-solving exercises, interactive classes, and mock tests designed to build strong conceptual understanding and competitive skills.
                 </p>
               </div>
               <div className="flex flex-wrap items-center justify-center mt-6 md:mt-0 mr-4">
