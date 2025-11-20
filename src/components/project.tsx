@@ -125,9 +125,9 @@ const item4 = [
   },
   {
     id: 6,
-    name: "PostgreSQL",
+    name: "MySQL",
     designation: "Database",
-    image: "/icons/postgresql.svg",
+    image: "/icons/mysql.svg",
   },
 
 ];
