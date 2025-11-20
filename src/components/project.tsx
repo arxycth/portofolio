@@ -80,7 +80,7 @@ const item3 = [
   },
   {
     id: 4,
-    name: "PostgreSQL",
+    name: "MySQL",
     designation: "Database",
     image: "/icons/postgresql.svg",
   },
@@ -90,6 +90,46 @@ const item3 = [
     designation: "JavaScript Framework",
     image: "/icons/alpinejs.svg",
   },
+];
+
+const item4 = [
+  {
+    id: 1,
+    name: "PHP",
+    designation: "Programming Language",
+    image: "/icons/php.svg",
+  },
+  {
+    id: 2,
+    name: "Typescript",
+    designation: "Programming Language",
+    image: "/icons/typescript.svg",
+  },
+  {
+    id: 3,
+    name: "Tailwind CSS",
+    designation: "CSS Framework",
+    image: "/icons/tailwind.svg",
+  }, 
+  {
+    id: 4,
+    name: "React",
+    designation: "Javascript Library",
+    image: "/icons/react.svg",
+  },
+  {
+    id: 5,
+    name: "Laravel",
+    designation: "PHP Framewor",
+    image: "/icons/laravel.svg",
+  },
+  {
+    id: 6,
+    name: "PostgreSQL",
+    designation: "Database",
+    image: "/icons/postgresql.svg",
+  },
+
 ];
 
 export function Project() {
@@ -172,7 +212,7 @@ export function Project() {
           </WobbleCard>
         </a>
 
-        <div data-aos="zoom-in" data-aos-duration="1000">
+        <a href="https://pelatihanolimpiade.com" data-aos="zoom-in" data-aos-duration="1000">
           <WobbleCard
             containerClassName="w-full bg-blue-500"
             className="p-6 sm:p-10"
@@ -180,13 +220,10 @@ export function Project() {
             <div className="flex flex-col md:flex-row justify-between">
               <div className="max-w-xl">
                 <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                  Portofolio Website
+                  Pelatihan Olimpiade
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-100">
-                  This is a portofolio website built with Next.js, Tailwind CSS,
-                  and Framer Motion. It showcases the power of modern web
-                  technologies to create stunning and interactive user
-                  experiences.
+                  www.pelatihanolimpiade.com is an online platform that provides structured learning resources, practice materials, and guided mentoring to help students prepare for academic competitions. It typically offers subject-specific modules, problem-solving exercises, interactive classes, and mock tests designed to build strong conceptual understanding and competitive skills. Through accessible and flexible online features, such a website enables learners to train effectively anytime and anywhere.
                 </p>
               </div>
               <div className="flex flex-wrap items-center justify-center mt-6 md:mt-0 mr-4">
@@ -194,7 +231,7 @@ export function Project() {
               </div>
             </div>
           </WobbleCard>
-        </div>
+        </a>
 
         <div data-aos="zoom-in" data-aos-duration="1000">
           <WobbleCard
