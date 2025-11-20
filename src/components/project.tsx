@@ -227,7 +227,7 @@ export function Project() {
                 </p>
               </div>
               <div className="flex flex-wrap items-center justify-center mt-6 md:mt-0 mr-4">
-                <AnimatedTooltip items={item1} />
+                <AnimatedTooltip items={item4} />
               </div>
             </div>
           </WobbleCard>
