@@ -235,7 +235,7 @@ export function Project() {
 
         <div data-aos="zoom-in" data-aos-duration="1000">
           <WobbleCard
-            containerClassName="w-full bg-blue-500"
+            containerClassName="w-full bg-gray-950"
             className="p-6 sm:p-10"
           >
             <div className="flex flex-col md:flex-row justify-between">
@@ -259,7 +259,7 @@ export function Project() {
 
         <div data-aos="zoom-in" data-aos-duration="1000">
           <WobbleCard
-            containerClassName="w-full bg-blue-500"
+            containerClassName="w-full bg-gray-950"
             className="p-6 sm:p-10"
           >
             <div className="flex flex-col md:flex-row justify-between">
@@ -283,7 +283,7 @@ export function Project() {
 
         <div data-aos="zoom-in" data-aos-duration="1000">
           <WobbleCard
-            containerClassName="w-full bg-blue-500"
+            containerClassName="w-full bg-gray-950"
             className="p-6 sm:p-10"
           >
             <div className="flex flex-col md:flex-row justify-between">
